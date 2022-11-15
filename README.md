@@ -3,19 +3,23 @@ General guide to how to make Ambilight to your non-phillips TV with pictures and
 
 ## Table Of Contents
 - [Ambilight-TV](#ambilight-tv)
-  * [Intro](#intro)
-      - [Important Notes:](#important-notes-)
   * [Table Of Contents](#table-of-contents)
+  * [Intro](#intro)
+      - [Important Notes](#important-notes)
   * [Requirments](#requirments)
     + [To Order List (If you don't have already by chance)](#to-order-list--if-you-don-t-have-already-by-chance-)
     + [Optional List](#optional-list)
     + [Special Considerations](#special-considerations)
   * [Setup](#setup)
       - [Overview](#overview)
+      - [step 1: Install Hyperion on your Raspberry Pi](#step-1--install-hyperion-on-your-raspberry-pi)
+      - [step 2: Prepare the wire](#step-2--prepare-the-wire)
+      - [step 3: Put the leds](#step-3--put-the-leds)
+      - [step 4: Put the Capture Card and the raspberry pi](#step-4--put-the-capture-card-and-the-raspberry-pi)
+      - [step 5: Get all together](#step-5--get-all-together)
   * [Demo](#demo)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
 
 
 ## Intro
@@ -74,4 +78,10 @@ graph TD;
     B-->|microUSB stripped cable| C[Raspberry Pi];
     B-->|red-black cables| D{Leds};
 ```
+#### step 1: Install Hyperion on your Raspberry Pi
+#### step 2: Prepare the wire
+#### step 3: Put the leds
+#### step 4: Put the Capture Card and the raspberry pi 
+#### step 5: Get all together
+
 ## Demo
