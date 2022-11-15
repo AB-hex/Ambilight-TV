@@ -1,17 +1,6 @@
 # Ambilight-TV
 General guide to how to make Ambilight to your non-phillips TV with pictures and demonstration, using [raspberry pi](https://www.raspberrypi.com/products/raspberry-pi-zero/) and [hyperion](https://docs.hyperion-project.org/en/user/Installation.html) software. (Known also as back-light TV).
 
-## Intro
-Hue Ambilight is known feature in [phillips' TV](https://www.youtube.com/watch?v=aH-4HxWgk1k). The TV equipped with back RGB leds behind the TV, they dynamically change the colour by the current value of the edge pixels of the TV's image. It began when I was impressed in personal from ambilight in my friend TV house. 
-ecause this kind of TVs are usually more expensive, I decided to build my own ambilight to my non-phillips TV setup and share the result with some tips and info about the process.
-Enjoy. 
-Credits 
-- ["The ULTIMATE Guide to Building an Ambilight TV with Hyperion"](https://www.youtube.com/watch?v=J26oYlKyq7Q) by ["Everything Smart Home"](https://www.youtube.com/c/EverythingSmartHome) 
-- [Hyperion](https://docs.hyperion-project.org/en/user/Installation.html) Software to run on the raspberry pi which control the lights.
-#### Important Notes
- -  This will work only if your source is external to the TV (like Xioami Streamer, Xbox Console or Blueray player), won't work for Smart-TV internal applications. In other words, if you play Netflix through your Xbox, it is OK, but if you play it from your Smart-TV's internal device, you won't see the ambilight effect
- -  The discussed setup was verified on 55" TV, if your TV is larger than 55" then you may need to modify the setup (please check [Special Considerations](#special-considerations)
-
 ## Table Of Contents
 - [Ambilight-TV](#ambilight-tv)
   * [Intro](#intro)
@@ -26,6 +15,20 @@ Credits
   * [Demo](#demo)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+
+
+## Intro
+Hue Ambilight is known feature in [phillips' TV](https://www.youtube.com/watch?v=aH-4HxWgk1k). The TV equipped with back RGB leds behind the TV, they dynamically change the colour by the current value of the edge pixels of the TV's image. It began when I was impressed in personal from ambilight in my friend TV house. 
+ecause this kind of TVs are usually more expensive, I decided to build my own ambilight to my non-phillips TV setup and share the result with some tips and info about the process.
+Enjoy. 
+Credits 
+- ["The ULTIMATE Guide to Building an Ambilight TV with Hyperion"](https://www.youtube.com/watch?v=J26oYlKyq7Q) by ["Everything Smart Home"](https://www.youtube.com/c/EverythingSmartHome) 
+- [Hyperion](https://docs.hyperion-project.org/en/user/Installation.html) Software to run on the raspberry pi which control the lights.
+#### Important Notes
+ -  This will work only if your source is external to the TV (like Xioami Streamer, Xbox Console or Blueray player), won't work for Smart-TV internal applications. In other words, if you play Netflix through your Xbox, it is OK, but if you play it from your Smart-TV's internal device, you won't see the ambilight effect
+ -  The discussed setup was verified on 55" TV, if your TV is larger than 55" then you may need to modify the setup (please check [Special Considerations](#special-considerations)
+
 
 ## Requirments
 A short list of everything you will need for the BackLight leds TV project
