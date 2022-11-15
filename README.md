@@ -47,7 +47,7 @@ Links are suitable for shipping to Israel. Once you have all you good to go.
 
 
 ### Special Considerations
-If your TV's size is bigger then 55" you may need to cosider the next settings:
+If your TV's size is bigger then 55" you may need to revise the next settings:
 - **Leds Strip's Lenght:** You should measure the actual length of your height and width of your TV to check if you may need more then 5m strip.
 - **Choosing the right Power Supply:** If you need more then 5m of led strip, you may need a bigger power supply. [This video](https://www.youtube.com/watch?v=1UprhxCzVuI) explains in brief how to calculate the needed watts for the Leds.
 
@@ -64,7 +64,7 @@ graph TD;
     B-->|USB-USB Cable| C[Raspberry Pi];
     C-->|Connector| D{Leds};
 ```
-flowchart of the power of the rpi and leds
+The power of the rpi and leds
 ```mermaid
 graph TD;
     A(Power Supply)-->B[DC power Connector];
