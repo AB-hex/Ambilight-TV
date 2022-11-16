@@ -63,7 +63,7 @@ If your TV's size is bigger then 55" you may need to revise the next settings:
 After preparing all important stuff you are ready to go, follow the instructions of the video. 
 Sometimes the setup can be confusing a little, but worry not. I added a few diagrams to make for clearfication. 
 #### Overview 
-The next graph demonstrate the connection of all compenents in the setup 
+The next graph demonstrate the connection of all compenents in the setup (if nothing is shown, try to present this in desktop mode).
 ```mermaid
 graph TD;
     A[External Source]-->|HDMI| B[Capture Card];
@@ -71,6 +71,9 @@ graph TD;
     B-->|USB-USB Cable| C[Raspberry Pi];
     C-->|Connector| D{Leds};
 ```
+- External Source - can be Xbox or Xioami Streamer.
+
+
 The power of the rpi and leds
 ```mermaid
 graph TD;
@@ -79,9 +82,23 @@ graph TD;
     B-->|red-black cables| D{Leds};
 ```
 #### step 1: Install Hyperion on your Raspberry Pi
+Please follow after the great [guide](https://docs.hyperion-project.org/en/user/HyperBian.html#requirements) that Hyperion Team made, you may also check this detailed [video](https://www.youtube.com/watch?v=J26oYlKyq7Q&t=770s) (chapters recomnded "Preparing the Pi OS" and "Installing Hyperion/HyperHDR") which I found useful.
+###### **Note** 
+if your raspberry pi's connection to local network is through wireless (WIFI) then you should consider follow [this](https://docs.hyperion-project.org/en/user/HyperBian.html#hyperbian-wifi) for easy access
 #### step 2: Prepare the wire
-#### step 3: Put the leds
-#### step 4: Put the Capture Card and the raspberry pi 
-#### step 5: Get all together
+Cut the micro-USB cable like [this](https://youtu.be/J26oYlKyq7Q?t=1195) while using the cutter (or any other way to your own preferation), in my case I had 4 cables, and used only the black and red to the DC connector (red to positive and black to negative), the LEDs came with black-red cables (for power) and connector cable )for data from raspberry pi).
+should look like in the image 
+![image](Images/IMG_20220826_183947.jpg)
 
+#### step 3: Put the leds
+Please refer to the same video as before but in [this time](https://youtu.be/J26oYlKyq7Q?t=1031) about putting the leds, DO NOT CUT THE WIRE, but try to bend the LED in the corners, your LEDs should be inculded with glue equipped on the strip to make the sticking the leds on your TV easier. 
+
+#### step 4: Put the Capture Card and the raspberry pi 
+I followed [this](https://youtu.be/J26oYlKyq7Q?t=1144) in the very same video, and got similiar setup. My Result 
+![image](Images/IMG_20220827_093555.jpg)
+
+#### step 5: Get all together
+Assuming the you configured correctly the network connection, you should see your Raspberry Pi IP in your local Network, You should find it in your Router settings. Afterwards your Rpi powered by Hyperion should be accessaible by this address: http://IpOfYourPi:8090 which IpOfYourPi= The Ip you should fine. 
+##### **Note**
+I had some error in this part, which I can't recalled, about that the Hyperion wasn't in kernel mode, and I had to SSH the Rpi in order to put some command I found on stack overflow - please leave a message if your encounter this.
 ## Demo
