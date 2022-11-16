@@ -101,7 +101,7 @@ I followed [this](https://youtu.be/J26oYlKyq7Q?t=1144) in the very same video, a
 Assuming the you configured correctly the network connection, you should see your Raspberry Pi IP in your local Network, You should find it in your Router settings. Afterwards your Rpi powered by Hyperion should be accessaible by this address: http://IpOfYourPi:8090 which IpOfYourPi= The Ip you should fine. 
 You should learn the tips for the settings using the same video but in the chapter of ["Configuring Hyperion/HyperHDR"](https://www.youtube.com/watch?v=J26oYlKyq7Q&t=1342s), I used the tip of downscaling resolution of the image in order to get better performance.
 **Final Result** 
-[image](Images/IMG_20220827_093646 (1).jpg)
+[image](Images/IMG_20220827_093646(1).jpg)
 
 ##### **Note**
 I had some error in this part, which I can't recall the exaact message, but it was about Hyperion didn't started in kernel mode, and I had to SSH the Rpi in order to put some command I found on stack overflow - please leave a message if your encounter this.
