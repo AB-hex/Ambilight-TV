@@ -106,4 +106,12 @@ You should learn the tips for the settings using the same video but in the chapt
 ##### **Note**
 I had some error in this part, which I can't recall the exaact message, but it was about Hyperion didn't started in kernel mode, and I had to SSH the Rpi in order to put some command I found on stack overflow - please leave a message if your encounter this.
 ## Demo
-Some side to side of "Before-After" Videos
+Some Demo Videos
+
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/NCCpfLT0-qc/0.jpg)](https://www.youtube.com/watch?v=NCCpfLT0-qc)
+
+
+
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/mwco9zG3U0E/0.jpg)](https://www.youtube.com/watch?v=mwco9zG3U0E)
