@@ -93,7 +93,7 @@ should look like in the image
 ![image](Images/IMG_20220826_183947.jpg)
 
 #### step 3: Put the leds
-Please refer to the same video as before but in [this time](https://youtu.be/J26oYlKyq7Q?t=1031) about putting the leds, DO NOT CUT THE WIRE, but try to bend the LED in the corners, your LEDs should be inculded with glue equipped on the strip to make the sticking the leds on your TV easier. 
+Please refer to the same video as before but in [this time](https://youtu.be/J26oYlKyq7Q?t=1031) about putting the leds, DO NOT CUT THE LED STRIP IN THE CORNERS, but try to bend the LED in the corners instead, your LEDs should be inculded with glue equipped on the strip to make the sticking the leds on your TV easier. 
 
 #### step 4: Put the Capture Card and the raspberry pi 
 I followed [this](https://youtu.be/J26oYlKyq7Q?t=1144) in the very same video, and got similiar setup, here I should mention that I connected the Raspberry Pi's GPIO 18 to the leds with female-male connector that came with the raspberry pi (as Hyperion written in their guide setup).  My Result 
